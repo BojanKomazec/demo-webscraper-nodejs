@@ -1,0 +1,25 @@
+{
+  "name": "webscraper-nodejs",
+  "version": "1.0.0",
+  "description": "An app which demonstrates webpage scraping with Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node scr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bojan.komazec/webscraper-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bojan.komazec/webscraper-nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/bojan.komazec/webscraper-nodejs#README",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "puppeteer": "^1.9.0"
+  }
+}
