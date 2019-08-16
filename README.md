@@ -18,5 +18,5 @@ npm install && npm start
 
 ```
 $ docker build -t bkomazec/demo-webscraper .
-$ docker run --rm -it --name running-demo-webscraper bkomazec/demo-webscraper
+$ docker run --user=node --cap-add=SYS_ADMIN --rm -it --name running-demo-webscraper bkomazec/demo-webscraper
 ```
