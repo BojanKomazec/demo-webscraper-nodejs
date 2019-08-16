@@ -21,10 +21,12 @@
   "homepage": "https://gitlab.com/bojan.komazec/webscraper-nodejs#README",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "nightmare": "^3.0.2",
     "puppeteer": "^1.19.0"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.13",
+    "@types/nightmare": "^2.10.4",
     "@types/puppeteer": "^1.19.1",
     "typescript": "^3.5.3"
   }
